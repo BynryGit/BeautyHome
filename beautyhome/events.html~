@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>:: Beauty Home</title>
+<meta name="description" content="BeautySpa Landing Page">
+<meta name="author" content="tungsten-5" >
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Google Font Code -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800,800italic,300italic' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/loading.css">
+
+<link rel="stylesheet" href="css/style1.css" />
+<!--<link rel="stylesheet" href="css/style2.css" />-->
+<!--<link rel="stylesheet" href="css/style3.css" />-->
+<!--<link rel="stylesheet" href="css/style4.css" />-->
+<!--<link rel="stylesheet" href="css/style5.css" />-->
+
+<link rel="stylesheet" href="css/jquery.datetimepicker1.css">
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker2.css">-->
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker3.css">-->
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker4.css">-->
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker5.css">-->
+
+<!-- <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+
+<script src="js/modernizr.custom.63321.js"></script>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- Favicon and Apple Icons -->
+<link rel="shortcut icon" href="img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon.png">
+
+<style type="text/css">
+.about-section{
+font-size: 20px;
+}
+
+#serviceList .carousel-indicators > li {
+    width: 13.7%;
+}
+
+.on-hover-content{
+position: relative;
+#bottom: 40px;
+background-color: #C0BEBE;
+padding: 10px;
+border-radius: 10px;
+height: 100%;
+width: 100%;
+}
+
+.on-hover-content img{width:360px;}
+ 
+.para1{
+display: none;
+} 
+
+#offer1{
+display: none;
+}
+
+#contact{
+min-height: 100vh;
+}
+
+#contact a{
+color: black;
+}
+
+.price1{
+color:#8BCA39;
+}
+
+.page-header {
+    padding-bottom: 25px;
+    margin-top:11%;
+    color: #817C76;
+}
+
+.package, .package1, .package2 {    
+    border-bottom: 0px solid rgba(0, 0, 0, 0.2);    
+}
+
+#serviceList .carousel-indicators li.item6 {
+    background-color: #E5CA1B;
+}
+
+#serviceList .carousel-indicators li.item7 {
+    background-color: #BFBEBA;
+}
+
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+h3 {
+    background-color: #645F5A;
+}
+
+
+#offer {
+    background: #352f2e;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+.ih-item.square.effect10 .info .info-back {
+  position: fixed;  
+}
+
+.ih-item.square.effect10 .info .info-back {
+  position: initial;
+  margin-top: 50%;
+}
+
+.about-ther{
+color:black;
+}
+
+.service-bar{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;  
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  padding: 2%;
+  
+}
+
+.service-head{
+	font-size: 1.25em;
+	font-weight: 600;
+  font-family: 'Open sans', Roboto, Arial;
+  color: #61ad03;
+}
+
+.modal-dialog1 {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.navigation .navbar-default .navbar-nav > li.active a, .navigation .navbar-default .navbar-nav > li a:hover {
+  background-color: #61ad03 !important;
+  color: #fff;
+}
+
+#menu ul.nav li a {
+  line-height: 1em !important;
+  color: black;
+}
+
+#about {
+  background: #352f2e;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  min-height: 100vh;
+}
+
+#subscribe{
+background: #352f2e;
+}
+
+.navigation .navbar-default .navbar-nav > li.active a, .navigation .navbar-default .navbar-nav > li a:hover {
+    background-color: rgba(129, 124, 118, 0.58) !important;
+    color: #fff;
+}
+
+
+.navigation .navbar-right li a:hover i, .navigation .navbar-right li a:focus i {
+  color:#61ad03;
+}
+
+.page-block {
+  padding: 6.5em 0 5.5em;
+  background: white;
+}
+
+.navigation ul.nav li a {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 2em 1em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.navigation .navbar-default {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open sans', Roboto, Arial;
+  margin: 0;
+  color: #817C76;
+  text-transform: uppercase;
+}
+
+a.logo {
+    background-color: rgba(224, 221, 221, 0.38);
+}
+
+a:hover, a:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li{
+color:white;
+}
+
+h5, h6{
+color:black;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+#treatment-text{
+  color: black;
+}
+
+.service-desc{
+background: #352f2e;;
+}
+
+.ih-item.square.effect10 .info .social li a:hover i {
+  color: #61ad03;
+}
+
+#quotes{
+min-height: 100vh;
+}
+
+#quotes .bgBox{
+  background: none;
+}
+
+.package:hover h5, .package1:hover h5, .package2:hover h5 {
+  color: #61ad03;
+}
+
+.ih-item.square.effect10 .info strong {
+  text-transform: uppercase;
+  color: #61ad03;
+}
+
+.ih-item.square.effect10 .info {
+  background: #cacac8;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#services p{
+color:#fff;
+}
+
+#team span,p{
+color:black;
+}
+
+#team a{
+color:#61ad03;
+}
+
+.ih-item.square.effect10 .info p {
+  color: black;  
+}
+
+.ih-item.square.effect10 .info .social li a i {
+  color: black;
+}
+
+.ih-item.square.effect10 .info h4 {
+  color: black;  
+}
+
+#quotes .highlightBox .boxBg {
+  background: rgba(2, 2, 2, 0.3) url(../img/body-bg2.png) repeat 0 0;
+}
+
+.highlightBox .boxBg {
+  background-color:transparent;
+}
+
+a.top {
+  display: none;
+  color: #fff;
+  text-align: center;
+  padding: 0.8em 0.8em 1em 1.3em;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background: #352f2e;
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  opacity: 0.8;
+}
+
+#serviceList h3 {
+    position: relative;
+    color: white;
+}
+
+.contactInfo a:hover {
+  color: black;
+}
+
+.contactInfo p:hover i {
+  color: #61ad03 !important;
+  opacity: 1;
+  left: 0.5em;
+}
+
+#copyright {
+  background-color: #352f2e;
+}
+
+h2 span, h3 span, h4 span {
+  color: black;
+}
+
+.blog-content{
+background: #817C76;
+padding:2%;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.navigation .navbar-right li a:hover i, .navigation .navbar-right li a:focus i {
+    color: #817C76;
+}
+
+.navigation .navbar-default .navbar-right > li a:hover {
+    background-color: transparent !important;
+    color: #61ad03;
+}
+
+</style>
+
+</head>
+
+<body data-spy="scroll" data-offset="150">
+<!-- <div id="preloader">
+	<div class="loading">
+        <ul class="spinner">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+   </div>
+</div> -->
+
+
+
+
+<!-- START NAVIGATION -->
+<!-- <div class="row"> -->
+<!-- <header > -->
+<div class="fixed">
+	<section id="home" class="navigation">
+    	<nav class="navbar navbar-default" role="navigation">
+        	<div class="container">
+            	<div class="row">
+                	<!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header visible-xs">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Navigation</a>
+                    </div>
+                
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="menu">
+                      <ul class="nav navbar-nav" data-wow-offset="30">
+                        <li><a href="index.html" title="Home">Home</a></li>
+                        <li><a href="index.html#about" title="About">About</a></li>
+                        <li><a href="index.html#services" title="Services">Treatments</a></li>
+                        <li><a href="index.html#offer" title="Offer">Promotions</a></li>
+                        <!-- <li><a href="#gallery" title="Gallery">Gallery</a></li> -->
+                        <li><a href="index.html#team" title="Team">Therapists</a></li>
+                        <li><a href="index.html#quotes" title="Quotes">Testimonials</a></li>
+                        <li><a href="index.html#contact" title="Contact">contact</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right" data-wow-offset="30">
+                            <li><a class="tips" href="https://www.facebook.com/Beautyhomelondon" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="tips" href="https://twitter.com/BeautyHome_LDN" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="tips" href="https://instagram.com/beautyhome.london/" title="Watch Our Pictures"><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="tips" href="https://www.tumblr.com/blog/kumarmohituk" title="Tumblr"><i class="fa fa-tumblr"></i></a></li>
+                            <li><a class="tips" href="https://www.reddit.com/user/kumarmohituk/" title="Reddit"><i class="fa fa-reddit"></i></a></li>
+                            <li><a class="tips" href="https://plus.google.com/u/0/113091688370632703367/posts" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a class="tips" href="https://foursquare.com/user/128155111" title="Four Square"><i class="fa fa-foursquare"></i></a></li>                          
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- end row -->               
+			</div><!-- end container -->
+        </nav>
+        
+    </section>
+</div>    
+<!-- </header> -->
+<!-- </div> -->
+<!-- END NAVIGATION -->
+<div class="row">
+        <!-- ======= Logo Here ======= -->
+        <div class="col-md-12">
+       <a class="logo wow fadeInDown" data-wow-iteration="1" href="index.html" title="Beautyspa">
+            <img class="img-responsive" src="img/logo.png" alt="Beautyspa" />
+       </a>
+       </div>
+    </div><!-- end row -->
+<!-- START SERVICES -->
+<div class="row">
+<section id="services" class="page-block" style="min-height: 100vh;">
+
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 col-sm-12">
+                <h2 class="page-header">Corporate <span>Events</span></h2>
+                <div class="carousel slide clearfix" data-ride="carousel">
+                      <!-- Indicators -->
+                      
+                      <!-- Wrapper for slides -->
+                      
+                        <div id="serviceList" class="row">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/cosmo_main.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7 blog-content">
+                            <h3>Cosmopolitan Summer Party</h3><br><!-- <strong class="price"><small>$</small>75</strong> -->                            
+                            <div style="text-align:left;"><p>BeautyHome at the Cosmopolitan Summer Party<br>
+Date: 13th June<br>
+Venue: The Artillery Garden Marquee, Chiswell Street, EC1Y 4TW</p></div><br>
+										<p>One of the biggest and the most glamorous fashion event of London - the Cosmopolitan Summer
+Party of 2015 !!! The party feautured live music from Kiss FM's hottest DJ, Neev, an awesome
+BBQ, yummy ice-cream, drinks from Emmi CHOCO LAIT and fabulous Zubrowka cocktails and
+Gancia prosecco.
+Live stage shows with including Gandys flip flops and Freya swim showing their latest collections
+added to the glamour of the event.
+As if that wasn't enough, Rimmel showcased its latest Sunshimmer and hottest 60 second nail
+polishes. BeauyHome therapists were at hand to apply the latest nail polishes on the party guests
+as well as the models
+It was a busy afternoon for our therapists with party guests delighted to have an express manicure
+and nails done.
+
+										</p>
+										<a data-toggle="modal" data-target="#cosmo-gallery">View Gallery</a>
+										</div>
+
+			<div class="modal fade" id="cosmo-gallery" role="dialog">
+    												<div class="modal-dialog1">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">Cosmopolitan Summer Party Gallery</h4>
+        											</div>
+        											<div class="modal-body">
+          											<!-- <section id="cosmo-gallery" class="page-block"> -->
+	<!-- <div class="container"> -->
+    	<div class="row"><!-- <h2>Our <span>Gallery</span></h2> -->              
+              <ul class="galleryImg clearfix">
+                  <li>
+                    <a href="img/gallery/large/cosmo1.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/cosmo1.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/cosmo2.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/cosmo2.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/cosmo3.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/cosmo3.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/cosmo4.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/cosmo4.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/cosmo5.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/cosmo5.jpg" alt="Gallery"></a>
+                  </li> 
+                  <li>
+                    <a href="img/gallery/large/cosmo6.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/cosmo6.jpg" alt="Gallery"></a>
+                  </li>                 
+                  <!-- ... -->
+              </ul>
+		</div><!-- end row -->
+	<!-- </div> --><!-- end container -->
+<!-- </section> -->	
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+
+								
+									
+										 									                                                     
+                            </div>
+                        </div><!-- end item -->
+                        <br>
+                        <hr>
+                        
+                        <div id="serviceList" class="row">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/orla_main.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7 blog-content">
+                            	<h3>Orla Kiely hand cream promotion event</h3><br>
+                            	<div style="text-align:left;"><p>BeautyHome at the Orla Kiely hand cream promotion event<br>
+Date: 26th June<br>
+Venue: John Lewis Startford</p></div><br>
+									<p>BeautyHome therapists remain in demand from corporate clients. Four of our therapists provided
+hand massage at the promotion event for Orla Kiely geranium and bergamot hand cream range.
+The event, held at John Lewis, Stratford, was in collaboration with the Red magazine, one of
+London’s foremost fashion magazine. BeautyHome therapists provided soothing hand massage,
+using the Orla Kiely cream while explaining to the customers the key ingredients and benefits of
+the hand cream range.
+</p>
+<p>Given increased demand from corporate and retail clients, BeautyHome has expanded to 13
+therapists covering the whole of London. The friendly, insured and qualified therapists can visit
+corporate events, hotels or home 7 days a week from 9am to 9pm, delivering a range of beauty
+and massage treatments
+</p>									
+									<a data-toggle="modal" data-target="#orla-gallery">View Gallery</a> 																									 
+                            </div>
+                            
+								<div class="modal fade" id="orla-gallery" role="dialog">
+    												<div class="modal-dialog1">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">Orla Kiely Gallery</h4>
+        											</div>
+        											<div class="modal-body">
+          											<!-- <section id="cosmo-gallery" class="page-block"> -->
+	<!-- <div class="container"> -->
+    	<div class="row"><!-- <h2>Our <span>Gallery</span></h2> -->              
+              <ul class="galleryImg clearfix">
+                  <li>
+                    <a href="img/gallery/large/orla1.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/orla1.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/orla2.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/orla2.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/orla3.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/orla3.jpg" alt="Gallery"></a>
+                  </li>
+                  <li>
+                    <a href="img/gallery/large/orla4.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/orla4.jpg" alt="Gallery"></a>
+                  </li>           
+                  <!-- ... -->
+              </ul>
+		</div><!-- end row -->
+	<!-- </div> --><!-- end container -->
+<!-- </section> -->	
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>                           
+                            
+                        </div><!-- end item -->
+                        <br>
+                        <hr>                        
+                        <br>                        
+                        <br>
+                      
+                </div>
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+</div>    
+    <div class="para1">
+    	<div class="highlightBox">
+            <div class="boxBg">
+                <div class="page-block-big">
+                    <h1 class="wow fadeInDown" data-wow-offset="200" data-wow-delay="100ms">We use only <strong>herbal products</strong></h1>
+                    <h5 class="wow fadeInUp" data-wow-offset="200" data-wow-delay="200ms">from standard brands only</h5>
+                </div>
+            </div>
+        </div><!-- end highlightBox -->
+    </div><!-- end para1 -->
+    
+
+<!--START COPYRIGHT-->
+<footer id="copyright" class="page-block-small wow fgadeInDown" data-wow-offset="70" data-wow-delay="700ms">
+  <div class="container text-center"> 
+    <div class="row">
+    
+      <p>BeautyHome &copy; 2015. All Rights Reserved.</p>
+      
+    </div><!-- end row -->
+  </div><!-- end container -->
+</footer>
+<!--END COPYRIGHT--> 
+
+<a href="#services" class="top"><i class="fa fa-arrow-up fa-lg"></i></a>
+
+<!--START SCRIPTS -->
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/wow.min.js"></script> 
+<script src="js/placeholders.js"></script>
+<script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+<script src="js/jquery.datetimepicker.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/master.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+			 
+                                 
+$("#show-gallery").click(function(){
+    $("#nails").show(800);
+    $("#less-nails-link").show(800);
+    $("#more-nails-link").hide();
+});  
+
+$("#less-nails-link").click(function(){
+    $("#nails").hide(800);
+    $("#less-nails-link").hide();
+    $("#more-nails-link").show(800);
+});
+
+$("#more-massage-link").click(function(){
+    $("#massage").show(800);
+    $("#less-massage-link").show(800);
+    $("#more-massage-link").hide();
+});  
+
+$("#less-massage-link").click(function(){
+    $("#massage").hide(800);
+    $("#less-massage-link").hide();
+    $("#more-massage-link").show(800);
+}); 
+
+$("#more-thread-link").click(function(){
+    $("#threading").show(800);
+    $("#less-thread-link").show(800);
+    $("#more-thread-link").hide();
+});  
+
+$("#less-thread-link").click(function(){
+    $("#threading").hide(800);
+    $("#less-thread-link").hide();
+    $("#more-thread-link").show(800);
+}); 
+
+$("#more-wax-link").click(function(){
+    $("#waxing").show(800);
+    $("#less-wax-link").show(800);
+    $("#more-wax-link").hide();
+});  
+
+$("#less-wax-link").click(function(){
+    $("#waxing").hide(800);
+    $("#less-wax-link").hide();
+    $("#more-wax-link").show(800);
+}); 
+
+$("#more-face-link").click(function(){
+    $("#facials").show(800);
+    $("#less-face-link").show(800);
+    $("#more-face-link").hide();
+});  
+
+$("#less-face-link").click(function(){
+    $("#facials").hide(800);
+    $("#less-face-link").hide();
+    $("#more-face-link").show(800);
+});
+
+$("#more-spray-link").click(function(){
+    $("#spray").show(800);
+    $("#less-spray-link").show(800);
+    $("#more-spray-link").hide();
+});  
+
+$("#less-spray-link").click(function(){
+    $("#spray").hide(800);
+    $("#less-spray-link").hide();
+    $("#more-spray-link").show(800);
+});
+
+});
+
+      
+ $(function(){
+    $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+    }); 
+     
+
+    </script>
+
+</body>
+</html>

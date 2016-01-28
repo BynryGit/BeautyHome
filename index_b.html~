@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>:: Beauty Home</title>
+<meta name="description" content="BeautySpa Landing Page">
+<meta name="author" content="tungsten-5" >
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Google Font Code -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800,800italic,300italic' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/loading.css">
+
+<link rel="stylesheet" href="css/style1.css" />
+<!--<link rel="stylesheet" href="css/style2.css" />-->
+<!--<link rel="stylesheet" href="css/style3.css" />-->
+<!--<link rel="stylesheet" href="css/style4.css" />-->
+<!--<link rel="stylesheet" href="css/style5.css" />-->
+
+<link rel="stylesheet" href="css/jquery.datetimepicker1.css">
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker2.css">-->
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker3.css">-->
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker4.css">-->
+<!--<link rel="stylesheet" href="css/jquery.datetimepicker5.css">-->
+
+<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+
+<script src="js/modernizr.custom.63321.js"></script>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- Favicon and Apple Icons -->
+<link rel="shortcut icon" href="img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon.png">
+
+<style type="text/css">
+.about-section{
+font-size: 20px;
+}
+
+#serviceList .carousel-indicators > li {
+    width: 13.7%;
+}
+
+.on-hover-content{
+position: relative;
+#bottom: 40px;
+background-color: #C0BEBE;
+padding: 10px;
+border-radius: 10px;
+height: 100%;
+width: 100%;
+}
+
+.on-hover-content img{width:360px;}
+ 
+.para1{
+display: none;
+} 
+
+#gallery{
+display: none;
+}
+
+#offer1{
+display: none;
+}
+
+.price1{
+color:#8BCA39;
+}
+
+.page-header {
+    padding-bottom: 25px;
+    margin-top: 6%;
+}
+
+.package, .package1, .package2 {    
+    border-bottom: 0px solid rgba(0, 0, 0, 0.2);    
+}
+
+#serviceList .carousel-indicators li.item6 {
+    background-color: #E5CA1B;
+}
+
+#serviceList .carousel-indicators li.item7 {
+    background-color: #BFBEBA;
+}
+
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+#about {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    min-height: 100vh;
+}
+
+#offer {
+    background-color: #70545F;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+.ih-item.square.effect10 .info .info-back {
+  position: fixed;  
+}
+
+.about-ther{
+color:black;
+}
+
+.service-bar{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;  
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  padding: 2%;
+  
+}
+
+.service-head{
+	font-size: 1.25em;
+	font-weight: 600;
+  font-family: 'Open sans', Roboto, Arial;
+  color: #ff67ab;
+}
+
+.modal-dialog1 {
+  width: 70%;
+  margin: 30px auto;
+}
+
+</style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="150">
+<div id="preloader">
+	<div class="loading">
+        <ul class="spinner">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+   </div>
+</div>
+<!-- START LOGO -->
+<div class="container">
+	<div class="row">
+        <!-- ======= Logo Here ======= -->
+       <a class="logo wow fadeInDown" data-wow-iteration="1" href="index.html" title="Beautyspa">
+            <img class="img-responsive" src="img/company.png" alt="Beautyspa" />
+       </a>
+    </div><!-- end row -->
+</div><!-- end container -->
+<!-- END LOGO -->
+
+<!-- START HOME SLIDER -->
+<section id="slides">
+  <div class="slides-container">
+  
+      <div class="slide active">
+        <img src="img/slider/slide1.jpg" alt="slide" class="img-responsive">
+          <div class="slide-caption">
+            <div class="container wow fadeInDownBig">
+              <h1>BeautyHome</h1>
+              <p>Where comfort meets style. Let us treat you at your home or hotel</p>
+			  <a class="btn btn-primary read" href="#services">read More</a>
+            </div>
+          </div>
+      </div><!-- end slide1 -->
+      
+      <div class="slide active">
+        <img src="img/slider/slide2.jpg" alt="slide" class="img-responsive">
+          <div class="slide-caption">
+            <div class="container">
+              <h1>Get ready for your summer holidays!</h1>
+              <p>Mani & Pedi: get your nails in shape and choose a bright summer color!<br>
+Waxing: no perfect beach body without waxing!<br>
+Spray Tan: no need for a sun burn, get your tan at home already!</p>
+              <a class="btn btn-primary read" href="#services">read More</a>
+            </div>
+          </div>
+      </div><!-- end slide2 -->
+      
+      <div class="slide active">
+        <img src="img/slider/slide3.jpg" alt="slide" class="img-responsive">
+          <div class="slide-caption">
+            <div class="container">
+              <h1>BeautyHome welcomes Luisa, our new massage therapist!</h1>
+              <p>Book a massage with Luisa and we ensure you will feel de-stressed, relaxed and pampered</p>
+				<a class="btn btn-primary read" href="#services">read More</a>
+            </div>
+          </div>
+      </div><!-- end slide3 -->
+      
+      <div class="slide active">
+        <img src="img/slider/slide3.jpg" alt="slide" class="img-responsive">
+          <div class="slide-caption">
+            <div class="container">
+              <h1>News, Corporate Events</h1>
+              <p>TBD</p>
+				<a class="btn btn-primary read" href="#services">read More</a>
+            </div>
+          </div>
+      </div><!-- end slide4 -->
+      
+  </div><!-- end slides-container -->
+ 
+  <nav class="slides-navigation">
+   <a class="prev" href="#"> <i class="fa fa-chevron-left"></i></a>
+   <a class="next" href="#"> <i class="fa fa-chevron-right"></i></a>
+  </nav><!-- end slides-navigation -->
+</section>
+<!-- END HOME SLIDER -->
+
+<!-- START NAVIGATION -->
+<header id="home" class="">
+	<section class="navigation">
+    	<nav class="navbar navbar-default" role="navigation">
+        	<div class="container">
+            	<div class="row">
+                	<!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header visible-xs">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Navigation</a>
+                    </div>
+                
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="menu">
+                      <ul class="nav navbar-nav wow fadeInLeftBig" data-wow-offset="30">
+                        <li><a href="#slides" title="Home">Home</a></li>
+                        <li><a href="#about" title="About">About</a></li>
+                        <li><a href="#services" title="Services">Treatments</a></li>
+                        <li><a href="#offer" title="Offer">Promotions</a></li>
+                        <!-- <li><a href="#gallery" title="Gallery">Gallery</a></li> -->
+                        <li><a href="#team" title="Team">Therapists</a></li>
+                        <li><a href="#quotes" title="Quotes">Testimonials</a></li>
+                        <li><a href="#contact" title="Contact">contact</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right wow fadeInRightBig" data-wow-offset="30">
+                            <li><a class="tips" href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="tips" href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="tips" href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                            <li><a class="tips" href="#" title="Follow Us On Pinterest"><i class="fa fa-pinterest-square"></i></a></li>
+                            <li><a class="tips" href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                            <li><a class="tips" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="last"><a class="tips" href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- end row -->
+			</div><!-- end container -->
+        </nav>
+    </section>
+</header>
+<!-- END NAVIGATION -->
+
+<!-- START ABOUT -->
+<section id="about" class="page-block">
+	<div class="container">
+	<div class="row">
+	<div class="text-center page-header"><h2>About <span>BeautyHome</span></h2></div>	
+	</div>
+	<br><br>
+    	<div class="row">
+        	<div class="col-md-3 col-sm-3 text-center">
+            	<!-- <div class="aboutImg">
+        			<img class="img-responsive wow fadeInUpBig" data-wow-offset="300" src="img/about.png" alt="About" />
+        			<img class="shadow img-responsive" src="img/seperator-shadow.png" alt="Seperator shadow" />
+                </div> -->
+                <h2><a class="about-section">Flexible hours:<br>
+                7 days a week,<br> 9am to 9pm</a></h2>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+            	<!-- <div class="aboutImg">
+        			<img class="img-responsive wow fadeInUpBig" data-wow-offset="300" src="img/about.png" alt="About" />
+        			<img class="shadow img-responsive" src="img/seperator-shadow.png" alt="Seperator shadow" />
+                </div> -->
+                <h2><a class="about-section">We treat you at your home or hotel</a></h2>
+                <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque elit tortor, adipiscing vel velit in, ultriciesnulla. Donec in urna sem. Nulla facilisiestibulum ut aliquet agna. Nulla nec faucibus est. In in augue placerat, ligula quis, elementum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque lla nec faucibus est. In in augue placerat, ligula quis, elementum augue.</p> -->
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+            	<!-- <div class="aboutImg">
+        			<img class="img-responsive wow fadeInUpBig" data-wow-offset="300" src="img/about.png" alt="About" />
+        			<img class="shadow img-responsive" src="img/seperator-shadow.png" alt="Seperator shadow" />
+                </div> -->
+                <h2><a class="about-section" href="#services" title="Services">Wide range of beauty treatments</a></h2>
+                <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque elit tortor, adipiscing vel velit in, ultriciesnulla. Donec in urna sem. Nulla facilisiestibulum ut aliquet agna. Nulla nec faucibus est. In in augue placerat, ligula quis, elementum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque lla nec faucibus est. In in augue placerat, ligula quis, elementum augue.</p> -->
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+            	<!-- <div class="aboutImg">
+        			<img class="img-responsive wow fadeInUpBig" data-wow-offset="300" src="img/about.png" alt="About" />
+        			<img class="shadow img-responsive" src="img/seperator-shadow.png" alt="Seperator shadow" />
+                </div> -->
+                <h2><a class="about-section" href="#team">Friendly insured and qualified therapists</a></h2>
+                <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque elit tortor, adipiscing vel velit in, ultriciesnulla. Donec in urna sem. Nulla facilisiestibulum ut aliquet agna. Nulla nec faucibus est. In in augue placerat, ligula quis, elementum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque lla nec faucibus est. In in augue placerat, ligula quis, elementum augue.</p> -->
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- END ABOUT -->
+
+<!-- START SERVICES -->
+<section id="services" class="page-block">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 col-sm-12">
+                <h2>Our <span>Treatments</span></h2>
+                <div id="serviceList" class="carousel slide clearfix" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators clearfix">
+                      	<li data-target="#serviceList" data-slide-to="0" class="item1 active wow fadeInDown" data-wow-offset="200" data-wow-delay="100ms"><strong>Massage</strong><span>1</span></li>
+                      	<li data-target="#serviceList" data-slide-to="1" class="item2 wow fadeInDown" data-wow-offset="200" data-wow-delay="200ms">
+                      	<strong>Facials</strong><span>2</span>                      	          					
+                      	</li>                      	
+                      	<li data-target="#serviceList" data-slide-to="2" class="item3 wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms"><strong>Nails</strong><span>3</span></li>
+                      	<li data-target="#serviceList" data-slide-to="3" class="item4 wow fadeInDown" data-wow-offset="200" data-wow-delay="400ms"><strong>Waxing</strong><span>4</span></li>
+                      	<li data-target="#serviceList" data-slide-to="4" class="item5 wow fadeInDown" data-wow-offset="200" data-wow-delay="500ms"><strong>Hair and Make-up</strong><span>5</span></li>
+                      	<li data-target="#serviceList" data-slide-to="5" class="item6 wow fadeInDown" data-wow-offset="200" data-wow-delay="600ms"><strong>Tan</strong><span>6</span></li>
+                      	<li data-target="#serviceList" data-slide-to="6" class="item7 wow fadeInDown" data-wow-offset="200" data-wow-delay="700ms"><strong>Men</strong><span>7</span></li>
+                      </ol>
+    
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/01.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            <!-- <strong class="price"><small>$</small>75</strong> -->                            
+                            <div class="row service-bar">
+                            <div class="col-md-4">
+                            	<span class="service-head">Massage</span>
+                            	</div>
+                            	<div class="col-md-4 text-center">
+                            	<a class="text-center">Beauty tips</a>
+                            	</div>
+                            	<div class="col-md-4 text-center">
+                            	<!-- <a class="text-center">Read More</a> -->
+                            	</div>
+                                </div><!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue.</p> -->
+                                <ul class="list-default">
+                                	<li id="massage-desc1">Back and Shoulders Massage (30 mins)<br><p>Price Zone 1 & 2: <span>30.00</span><br>Price Outside:<span> 25.00</span></p></li>
+                                	
+                                	<li id="massage-desc2">Indian Head Massage (30 mins)<br><p>Price Zone 1 & 2: <span>30.00</span><br>Price Outside:<span> 24.00</span></p> </li>
+											                                	
+                                	<li id="massage-desc3">Deep Tissue Massage (1 hr)<br><p>Price Zone 1 & 2: <span>60.00</span><br>Price Outside:<span> 50.00</span></p> </li>
+											                              	
+                                	<div id="more-massage">
+                                	<li id="massage-desc4">Swedish Massage (1 hr)<br> <p>Price Zone 1 & 2: <span>60.00</span><br>Price Outside:<span> 50.00</span></p></li>
+                                    
+                                    <li id="massage-desc5">Pregnancy Massage (1 hr)<br><p>Price Zone 1 & 2: <span>60.00</span><br>Price Outside:<span> 50.00</span></p> </li>
+                                    
+                                    <li id="massage-desc6">Aromatherapy Massage (1 hr)<br><p>Price Zone 1 & 2: <span>60.00</span><br>Price Outside:<span> 50.00</span></p> </li>
+                                    
+                                    <li id="massage-desc7">Aromatherapy Massage (90 mins) <br><p>Price Zone 1 & 2: <span>80.00</span><br>Price Outside:<span> 70.00</span></p></li>
+                                    </div>
+                                    <a id="more-massage-link">View More</a>
+											<a id="less-massage-link">View Less</a>  
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/02.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            	<div class="row service-bar">
+                            <div class="col-md-4">
+                            	<span class="service-head">Facials</span>
+                            	</div>
+                            	<div class="col-md-4 text-center">
+                            	<a class="text-center">Beauty tips</a>
+                            	</div>
+                            	<div class="col-md-4 text-center">
+                            	<!-- <a class="text-center">Read More</a> -->
+                            	</div>
+                                </div>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue.</p> -->
+                                <ul class="list-default">
+                                	<li id="massage-desc1">Back and Shoulders Massage (30 mins)<br><p>Price Zone 1 & 2: <span>30.00</span><br>Price Outside:<span> 25.00</span></p></li>
+                                	<li id="massage-desc1">Back and Shoulders Massage (30 mins)<br><p>Price Zone 1 & 2: <span>30.00</span><br>Price Outside:<span> 25.00</span></p></li>
+                                	<li id="massage-desc1">Back and Shoulders Massage (30 mins)<br><p>Price Zone 1 & 2: <span>30.00</span><br>Price Outside:<span> 25.00</span></p></li>
+                                	
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/03.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            	<div class="row service-bar">
+                            <div class="col-md-4">
+                            	<span class="service-head">Nails</span>
+                            	</div>
+                            	<div class="col-md-4 text-center">
+                            	<a class="text-center">Beauty tips</a>
+                            	</div>
+                            	<div class="col-md-4 text-center">
+                            	<a class="text-center" data-toggle="modal" data-target="#treat-nails">Read More</a>
+                            	</div>
+                                </div> 
+                                <ul class="list-default">
+                                	<li>Express</li>
+                                 <li>Luxury</li>
+                                	<li>Shellac</li>
+                                	<li>Acrylic</li>
+                                	<li>Gel</li>
+                                	<li>Nails</li>
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        <div class="modal fade" id="treat-nails" role="dialog">
+    												<div class="modal-dialog1">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">Nails</h4>
+        											</div>
+        											<div class="modal-body table-responsive about-ther">
+          											<table class="table table-bordered">
+    													<thead>
+      													<tr>
+												        <th class="about-ther">Category</th>
+												        <th class="about-ther">Sub-Category</th>
+												        <th class="about-ther">Treatment</th>
+												        <th class="about-ther">Price in London Zone 1 & 2</th>
+												        <th class="about-ther">Price outside London Zone 1 & 2</th>
+												      </tr>
+												    </thead>
+												    
+												    <tbody>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Express</td>
+												        <td class="about-ther">Express Manicure</td>
+												        <td class="about-ther">25</td>
+												        <td class="about-ther">20</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Express</td>
+												        <td class="about-ther">Express Pedicure</td>
+												        <td class="about-ther">30</td>
+												        <td class="about-ther">24</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Express</td>
+												        <td class="about-ther">Express Manicure & Pedicure</td>
+												        <td class="about-ther">40</td>
+												        <td class="about-ther">35</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Luxury</td>
+												        <td class="about-ther">Luxury Manicure</td>
+												        <td class="about-ther">35</td>
+												        <td class="about-ther">28</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Luxury</td>
+												        <td class="about-ther">Luxury Pedicure</td>
+												        <td class="about-ther">40</td>
+												        <td class="about-ther">32</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Luxury</td>
+												        <td class="about-ther">Luxury Manicure & Pedicure</td>
+												        <td class="about-ther">70</td>
+												        <td class="about-ther">55</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Shellac</td>
+												        <td class="about-ther">Shellac Manicure</td>
+												        <td class="about-ther">40</td>
+												        <td class="about-ther">32</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Shellac</td>
+												        <td class="about-ther">Shellac Pedicure</td>
+												        <td class="about-ther">45</td>
+												        <td class="about-ther">36</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Shellac</td>
+												        <td class="about-ther">Shellac Manicure & Pedicure</td>
+												        <td class="about-ther">80</td>
+												        <td class="about-ther">64</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Acrylic</td>
+												        <td class="about-ther">Acrylic Full Set</td>
+												        <td class="about-ther">35</td>
+												        <td class="about-ther">28</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Acrylic</td>
+												        <td class="about-ther">Acrylic Infill</td>
+												        <td class="about-ther">20</td>
+												        <td class="about-ther">16</td>
+												      </tr>
+														<tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Acrylic</td>
+												        <td class="about-ther">Acrylic Take Off & New Set</td>
+												        <td class="about-ther">45</td>
+												        <td class="about-ther">36</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Acrylic</td>
+												        <td class="about-ther">Acrylic Take Off Only (with Shape & Color)</td>
+												        <td class="about-ther">20</td>
+												        <td class="about-ther">16</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Gel</td>
+												        <td class="about-ther">Gel Full Set</td>
+												        <td class="about-ther">40</td>
+												        <td class="about-ther">32</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Gel</td>
+												        <td class="about-ther">Gel Infill</td>
+												        <td class="about-ther">25</td>
+												        <td class="about-ther">20</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Gel</td>
+												        <td class="about-ther">Gel Take Off & New Set</td>
+												        <td class="about-ther">50</td>
+												        <td class="about-ther">40</td>
+												      </tr>
+														<tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Gel</td>
+												        <td class="about-ther">Gel Take Off Only (with Shape & Color)</td>
+												        <td class="about-ther">15</td>
+												        <td class="about-ther">12</td>
+												      </tr>
+												      <tr>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">Nails</td>
+												        <td class="about-ther">French</td>
+												        <td class="about-ther">5</td>
+												        <td class="about-ther">4</td>
+												      </tr>
+												    </tbody>
+												  </table>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+                        
+                        <div class="item">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/04.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            	<h3>Waxing</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue.</p>
+                                <ul class="list-default">
+                                	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                	<li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                	<li>Pellentesque elit tortor, adipiscing vel velit in, ultricies  </li>
+                                	<li>Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna</li>
+                                    <li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/05.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            	<h3>Hair and Make-up</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue.</p>
+                                <ul class="list-default">
+                                	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                	<li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                    <li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                	<li>Pellentesque elit tortor, adipiscing vel velit in, ultricies  </li>
+                                	<li>Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna</li>
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/05.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            	<h3>Tan</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue.</p>
+                                <ul class="list-default">
+                                	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                	<li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                    <li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                	<li>Pellentesque elit tortor, adipiscing vel velit in, ultricies  </li>
+                                	<li>Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna</li>
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                        	<div class="col-md-4 col-sm-5"><img class="img-responsive" src="img/gallery/small/05.jpg" alt="1"></div>
+                            <div class="col-md-7 col-md-offset-1 col-sm-7">
+                            	<h3>Men</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue.</p>
+                                <ul class="list-default">
+                                	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                	<li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                    <li>Integer gravida velit quis dolor tristiqumsan. </li>
+                                	<li>Pellentesque elit tortor, adipiscing vel velit in, ultricies  </li>
+                                	<li>Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna</li>
+                                </ul>	
+                            </div>
+                        </div><!-- end item -->
+                        
+                      </div><!-- end carousel-inner -->
+                </div>
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+    
+    <div class="para1">
+    	<div class="highlightBox">
+            <div class="boxBg">
+                <div class="page-block-big">
+                    <h1 class="wow fadeInDown" data-wow-offset="200" data-wow-delay="100ms">We use only <strong>herbal products</strong></h1>
+                    <h5 class="wow fadeInUp" data-wow-offset="200" data-wow-delay="200ms">from standard brands only</h5>
+                </div>
+            </div>
+        </div><!-- end highlightBox -->
+    </div><!-- end para1 -->
+    
+<section style="background-position: 50% 238px;" id="offer">    
+    <div class="container packageList">
+    	
+    		<div class="row">
+        	<h4 class="page-header text-center wow fadeInDown" data-wow-offset="300" data-wow-delay="100ms">Our <span>Promotions</span></h4>
+			</div>
+			<div class="row">            
+            <div class="col-md-6">
+            
+            	<div class="package1 wow fadeInLeft" data-wow-offset="250" data-wow-delay="200ms">
+                	<h5>Girls, get ready for your holidays!</h5>                
+                    <ul class="list-default">
+                    	<li>Luxury Manicure & Pedicure, Full Leg & Bikini Waxing</li>
+                    	<li>Price: <strong class="price1"><small>$</small>TBD</strong></li>                    	
+                    </ul>
+                    
+                </div><!-- end package -->
+            </div>
+          <div class="col-md-6">      
+                <div class="package1 wow fadeInRight" data-wow-offset="250" data-wow-delay="500m">
+                	<h5>Tanning party!</h5>                	
+                    <ul class="list-default">
+                    	<li>Book your own tanning and invite your friends over <br>(two tannings or more & <br>each additional tanning for 20.00)</li>
+                    	<li>Price: <strong class="price1"><small>$</small>60</strong></li>   
+                    </ul>
+                    
+                </div><!-- end package -->
+           </div>
+          </div>
+          <div class="row">
+          	 <div class="col-md-6">      
+                <div class="package wow fadeInLeft" data-wow-offset="200" data-wow-delay="300m">
+                	<h5>Boys, get ready for your holidays!</h5>
+                    <ul class="list-default">                    
+                    	<li>Luxury Manicure & Pedicure, Chest & Back Waxing</li>                    	
+                    	<li>Price: <strong class="price1"><small>$</small>TBD</strong></li>
+                    </ul>
+                    
+                </div><!-- end package -->
+                
+                <!-- <div class="package2 wow fadeInLeft" data-wow-offset="150" data-wow-delay="400m">
+                	<h5>Lorem Ipsum treatment</h5>
+                    <ul class="list-default">
+                    	<li>Lorem ipsum dolor sit amet, consectetur</li>
+                    	<li>adipiscing eliteger gravida velit quis dolo</li>
+                    	<li>Pellentesque elit tortor</li>
+                    </ul>
+                    <strong class="price"><small>$</small>99</strong>
+                </div> --><!-- end package -->
+                
+            </div><!-- end col-md-6 -->
+           
+            
+             <div class="col-md-6">	
+                
+                <div class="package wow fadeInRight" data-wow-offset="200" data-wow-delay="600m">
+                	<h5>BeautyHome, your preferred mobile therapist service!</h5>                	
+                    <ul class="list-default">
+                    	<li>Buy treatments worth <strong class="price1">300.00</strong> and pay <strong class="price1">260.00</strong> only</li>                    
+                    </ul>                    
+                </div><!-- end package -->
+                
+                <!-- <div class="package2 wow fadeInRight" data-wow-offset="150" data-wow-delay="700m">
+                	<h5>Fairness treatment</h5>
+                    <ul class="list-default">
+                    	<li>Lorem ipsum dolor sit amet, consectetur</li>
+                    	<li>adipiscing eliteger gravida velit quis dolo</li>
+                    	<li>Pellentesque elit tortor</li>
+                    </ul>
+                    <strong class="price"><small>$</small>75</strong>
+                </div> --><!-- end package -->
+                
+            </div><!-- end col-md-6 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- END SERVICES -->
+
+<!-- START SPECIAL OFFER -->
+<section id="offer1" class="para2">
+	<div class="boxBg">
+        <div class="container page-block">
+            <div class="row">
+            
+                <div class="col-md-2 col-sm-2 col-xs-12 wow rollIn" data-wow-offset="200" data-wow-delay="100ms">
+                    <h1><span>25% <small>OFF</small></span></h1>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 wow fadeInLeft" data-wow-offset="200" data-wow-delay="200ms">
+                    <h2>Special <span>Offer</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi.</p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 text-center wow fadeInLeft" data-wow-offset="200" data-wow-delay="300ms"><a class="btn btn-primary" href="#" title="">Get Now</a></div>
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div>
+</section>
+<!-- END  SPECIAL OFFER -->
+
+<!-- START GALLERY -->
+<section id="gallery" class="page-block">
+	<div class="container">
+    	<div class="row"><h2>Our <span>Gallery</span></h2>
+              <p class="text-center">In in augue placerat, ligula quis, elementum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. <br>Pellentesque lla nec faucibus est. In in augue placerat, ligula quis, elementum augue.</p>
+              <ul class="galleryImg clearfix">
+                  <li class="wow fadeInLeft" data-wow-offset="200" data-wow-delay="100ms">
+                    <a href="img/gallery/large/01.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/01.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="200" data-wow-delay="200ms">
+                    <a href="img/gallery/large/02.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/02.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="200" data-wow-delay="300ms">
+                    <a href="img/gallery/large/03.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/03.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="200" data-wow-delay="400ms">
+                    <a href="img/gallery/large/04.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/04.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="200" data-wow-delay="500ms">
+                    <a href="img/gallery/large/05.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/05.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="100" data-wow-delay="600ms">
+                    <a href="img/gallery/large/06.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/06.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="100" data-wow-delay="700ms">
+                    <a href="img/gallery/large/07.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/07.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="100" data-wow-delay="800ms">
+                    <a href="img/gallery/large/08.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/08.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="100" data-wow-delay="900ms">
+                    <a href="img/gallery/large/01.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/01.jpg" alt="Gallery"></a>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-offset="100" data-wow-delay="1000ms">
+                    <a href="img/gallery/large/02.jpg" title="Your caption" rel="prettyPhoto[gallery1]"><img class="img-reponsive" src="img/gallery/small/02.jpg" alt="Gallery"></a>
+                  </li>
+                  <!-- ... -->
+              </ul>
+		</div><!-- end row -->
+	</div><!-- end container -->
+</section>
+<!-- END  GALLERY -->
+
+<!-- START TEAM -->
+<section id="team" class="page-block">
+    <div class="container">
+    	<div class="row">
+        	<h2>Our <span>Experts</span></h2>
+              <p class="text-center">BeautyHome takes great pride in making sure that all BeautyHome therapists fulfil the highest standards: we
+look for outstanding technical expertise as well as personality, to ensure the highest level of client
+satisfaction. <a id="therapist-link">Read more</a> about our recruitment process.
+</p>
+			<div id="ther_read">
+			<div class="row">
+			<div class="col-md-4"><h2>Application</h2></div>
+ 			<div class="col-md-4"><h2>Background & qualifications check</h2></div>
+			<div class="col-md-4"><h2>Personal interview & test treatment</h2></div>
+			</div>
+			</div>			
+              
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/01.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Selina</h4>                                 
+                                  <strong>Beauty Therapist</strong>
+                                  <p>Areas of expertise: Massage, Manicure, Pedicure, Waxing</p>
+                                  <p><a data-toggle="modal" data-target="#ther1">Read more</a></p>
+                                  		
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div><!-- end profile -->
+              <div class="modal fade" id="ther1" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Selina</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">Selina is a senior and highly qualified therapist offering you over 20 years of premium experience. She has
+worked in prestigious salons with A list clientele from all over the world. Her expertise in particular are for
+facials, massage, waxing and nail care.</p>
+<p class="about-ther">Selina has a vast knowledge in various areas of the beauty industry, and looks forward to bringing her luxury
+touch to the comfort of your own home. Advance booking is highly recommended for Selina due to popular
+demand.</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Facials, Massage, Manicure, Pedicure, Waxing</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">TBD
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+            
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="600ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/02.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Lillian</h4>                                  
+                                  <strong>Make-Up Artist</strong>
+                                  <p>Areas of expertise:
+Make-Up, Eyelash Extensions, Manicure, Pedicure, Waxing, Massage, Facials</p>
+												<p><a data-toggle="modal" data-target="#ther2">Read more</a></p>
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div><!-- end profile -->
+            
+					<div class="modal fade" id="ther2" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Lilian</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">Lilian has been a make-up artist for over five years, with treatments ranging for day make-up, bridal and
+bridesmaid make-up to special costume make-ups.</p>
+<p class="about-ther">Lilian is a make-up artists with a passion for the fashion industry. Lilian also does photoshoots and fashion
+editorials, so she can definitely advise you on what make-up would suit best for that special occasion.
+</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Manicure, Pedicure, Waxing, Massage, Facials, Eyelash Extensions, Make-Up
+</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">London, Essex: Barbican EC1, Barking IG11, Barkingside IG6, Barnes SW13, Barnet EN5, Battersea SW11,
+Belgravia SW1, Belsize Park NW3,Bermondsey SE1, Blackheath SE3, Brent HA9, Brockley SE4, Camden
+NW1, Canary Wharf E14, Chelsea SW3, Chiswick W4, Clapham SW4, Colindale NW9, Ealing W5, Earls
+Court SW5, East Finchley N2, Edgware HA8, Enfield EN1, Finchley Central N3, Fulham SW6, Golders
+Green NW11, Greenwich SE10, Hammersmith W6, Hampstead NW3, Harrow HA1, HA0, HA2, HA3, Hendon
+NW4, Highbury N5, Highgate N6, Holloway N7, Islington N1, Kensington W8, Kentish Town NW5, Kilburn
+NW6, Maida Vale W9, Mayfair W1, Mill Hill NW7, Muswell Hill N10, New Cross SE14, New Southgate N11,
+North Finchley N12, North Kensington W10, Northwood HA6, Notting Hill W11, Park Royal NW10, Pinner
+HA5, Putney SW15, Romford RM1, Ruislip HA4, Seven Sisters N15, Shoreditch E2, South Kensington SW7,
+South Woodford E18, Southwark SE1, St Mary Cray , St. John’s Wood NW8, Stanmore HA7, Stockwell
+SW9, Stoke Newington N16, Stratford E15, Streatham SW16, Tufnell Park N19 North London, Victoria SW1,
+Walthamstow E17, Wandsworth SW18, Hampstead NW3 NW6, West Kensington W14, Wimbledon SW19
+
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>            
+            
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="900ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/03.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Vicky</h4>                                  
+                                  <strong>Beauty Therapist</strong>
+                                  <p>Areas of expertise:
+Manicure, Pedicure, Waxing, Massage, Facials</p>
+												<p><a data-toggle="modal" data-target="#ther3">Read more</a></p>
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div><!-- end profile -->
+              
+              <div class="modal fade" id="ther3" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Vicky</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">Vicky has over four years experience in top beauty salons in London. Her expertise covers a range of beauty
+treatments including waxing, manicures, pedicures, massages and facials.</p>
+<p class="about-ther">With an eye for detail and passion for beauty, Vicky delivers the perfect beauty treatments making you look
+fabulous.</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Manicure, Pedicure, Waxing, Massage, Facials</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">TBD
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+            
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="1200ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/04.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Sophia</h4>                                  
+
+
+                                  <strong>Beauty Therapist</strong>
+                                  <p>Areas of expertise:
+Massage, Facials, Eyelash Extensions, Make-Up</p>
+												<p><a data-toggle="modal" data-target="#ther4">Read more</a></p>
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div><!-- end profile -->
+              
+              <div class="modal fade" id="ther4" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Sophia</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">Sophia started her beauty therapist career back in 2011 and has since continued to gain experience and
+qualifications. She is passionate about her job and specializes in eyelash extensions. She also enjoys facial
+treatments and massages, especially Swedish massage. Sophia is also a make-up artist and makes sure
+she delivers the best treatment to the clients.
+</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Massage, Facials, Eyelash Extensions, Make-Up</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">London: Barbican EC1, Barking IG11, Barnes SW13, Barnet EN5, Battersea SW11, Belgravia SW1, Belsize
+Park NW3,Bermondsey SE1, Blackheath SE3, Brent HA9, Camden NW1, Canary Wharf E14, Chelsea SW3,
+Chiswick W4, Clapham SW4, Colindale NW9, Earls Court SW5, East Finchley N2, Edgware HA8, Enfield
+EN1, Finchley Central N3, Fulham SW6, Golders Green NW11, Greenwich SE10, Hammersmith W6,
+Hampstead NW3, Harrow HA1, HA0, HA2, HA3, Hendon NW4, Highbury N5, Highgate N6, Holloway N7,
+Islington N1, Kensington W8, Kentish Town NW5, Kilburn NW6, Maida Vale W9, Mayfair W1, Mill Hill NW7,
+Muswell Hill N10, North Finchley N12, North Kensington W10, Northwood HA6, Notting Hill W11, Park Royal
+NW10, Pinner HA5, Ruislip HA4, Shoreditch E2, South Kensington SW7, Southwark SE1, St. John’s Wood
+NW8, Stanmore HA7, Tufnell Park N19 North London, Victoria SW1, Hampstead NW3 NW6, West
+Kensington W14
+
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+
+				<div class="row">
+				<div class="col-md-12"><br></div>
+				</div>              
+              
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/01.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Luisa</h4>                                 
+                                  <strong>Beauty Therapist</strong>
+                                  <p>Areas of expertise: Massage, Manicure, Pedicure, Waxing</p>
+                                  <p><a data-toggle="modal" data-target="#ther5">Read more</a></p>
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div>
+              
+              <div class="modal fade" id="ther5" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Luisa</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">Luisa has over 8 years of experience working as a professional massage therapist. She is the best
+professional massage therapist you can get, with her magical technique, a combination of deep tissue and
+relaxing massage will make you feel great, an experience not to be missed. Luisa specialises in a range of
+massage treatments that are sure to take away the stress and leave you feel relaxed and pampered.
+</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Massage (Aromatherapy, Pregnancy, Swedish, Indian Head Massage)</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">London, Essex: Barbican EC1, Barking IG11, Barkingside IG6, Barnes SW13, Barnet EN5, Battersea SW11,
+Belgravia SW1, Belsize Park NW3,Bermondsey SE1, Blackheath SE3, Brent HA9, Brockley SE4, Camden
+NW1, Canary Wharf E14, Chelsea SW3, Chiswick W4, Clapham SW4, Colindale NW9, Ealing W5, Earls
+Court SW5, East Finchley N2, Edgware HA8, Enfield EN1, Finchley Central N3, Fulham SW6, Golders
+Green NW11, Greenwich SE10, Hammersmith W6, Hampstead NW3, Harrow HA1, HA0, HA2, HA3, Hendon
+NW4, Highbury N5, Highgate N6, Holloway N7, Islington N1, Kensington W8, Kentish Town NW5, Kilburn
+NW6, Maida Vale W9, Mayfair W1, Mill Hill NW7, Muswell Hill N10, New Cross SE14, New Southgate N11,
+North Finchley N12, North Kensington W10, Northwood HA6, Notting Hill W11, Park Royal NW10, Pinner
+HA5, Putney SW15, Romford RM1, Ruislip HA4, Seven Sisters N15, Shoreditch E2, South Kensington SW7,
+South Woodford E18, Southwark SE1, St Mary Cray , St. John’s Wood NW8, Stanmore HA7, Stockwell
+SW9, Stoke Newington N16, Stratford E15, Streatham SW16, Tufnell Park N19 North London, Victoria SW1,
+Walthamstow E17, Wandsworth SW18, Hampstead NW3 NW6, West Kensington W14, Wimbledon SW19
+
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+              
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/01.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Sudha</h4>                                 
+                                  <strong>Beauty Therapist</strong>
+                                  <p>Areas of expertise: Massage, Manicure, Pedicure, Waxing</p>
+                                  <p><a data-toggle="modal" data-target="#ther6">Read more</a></p>
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div>
+              
+              <div class="modal fade" id="ther6" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Sudha</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">Sudha has over 5 years of experience in the beauty industry and has gained a wealth of knowledge and
+experience working in top salons and spas. She specialises in a range of beauty treatments including
+waxing, facials, manicures, pedicures and massages. Her goal is to provide her clients with a unique,
+relaxing and pampering experience while providing the best quality treatment.
+</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Manicure, Pedicure, Waxing, Massage, Facials</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">London: Belgravia SW1, Belsize Park NW3, Brent HA9, Camden NW1, Chelsea SW3, Colindale NW9, East
+Finchley N2, Edgware HA8, Enfield EN1, Finchley Central N3, Golders Green NW11, Hampstead NW3,
+Harrow HA1, HA0, HA2, HA3, Hendon NW4, Highbury N5, Highgate N6, Holloway N7, Kentish Town NW5,
+Kilburn NW6, Maida Vale W9, Mill Hill NW7, Muswell Hill N10, North Finchley N12, Northwood HA6, Park
+Royal NW10, Pinner HA5, Ruislip HA4, St. John’s Wood NW8, Stanmore HA7, Hampstead NW3 NW6
+
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+              
+              <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms">
+                  <div class="ih-item square effect10 top_to_bottom">
+                      <aside>
+                          <div class="img"><img class="img-responsive" src="img/team/01.jpg" alt="img"></div>
+                          <div class="info">
+                              <div class="info-back">
+                                  <h4>Sheedah</h4>                                 
+                                  <strong>Beauty Therapist</strong>
+                                  <p>Areas of expertise: Massage, Manicure, Pedicure, Waxing</p>
+                                  <p><a data-toggle="modal" data-target="#ther7">Read more</a></p>
+                                  <ul class="social list-inline">
+                                      <li><a href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" title="Watch Our Videos"><i class="fa fa-youtube-play"></i></a></li>
+                                      <li><a href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+                                      <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </aside>
+                  </div>
+              </div>
+              
+              <div class="modal fade" id="ther7" role="dialog">
+    												<div class="modal-dialog">
+    
+      											<!-- Modal content-->	
+      											<div class="modal-content">
+        											<div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          										<h4 class="modal-title">About Sheedah</h4>
+        											</div>
+        											<div class="modal-body">
+          											<p class="about-ther">A pleasant personality and aim for perfection, Sheedah has been a mobile therapist for the past two years.
+Sheedah delivers a range of beauty treatments including manicures, pedicures, facials and massage. Her
+beauty treatments combine a focus on detail, a pampering touch and making the clients feel relaxed.
+Sheedah's specialities are manicure and pedicures which will leave your hands and feet looking top class.
+</p><br>
+<strong class="about-ther">Areas of expertise:</strong><br>
+<p class="about-ther">Manicure, Pedicure, Waxing, Massage, Facials</p><br>
+<strong class="about-ther">Areas covered:</strong>
+<p class="about-ther">London, Essex: Barbican EC1, Barking IG11, Barkingside IG6, Barnes SW13, Barnet EN5, Battersea SW11,
+Belgravia SW1, Belsize Park NW3,Bermondsey SE1, Blackheath SE3, Brent HA9, Brockley SE4, Camden
+NW1, Canary Wharf E14, Chelsea SW3, Chiswick W4, Clapham SW4, Ealing W5, Earls Court SW5, East
+Finchley N2, Edgware HA8, Finchley Central N3, Fulham SW6, Golders Green NW11, Greenwich SE10,
+Hammersmith W6, Hampstead NW3, Harrow HA1, HA0, HA2, HA3, Hendon NW4, Holloway N7, Islington
+N1, Kensington W8, Kentish Town NW5, Kilburn NW6, Maida Vale W9, Mayfair W1, Mill Hill NW7, Muswell
+Hill N10, New Cross SE14, North Kensington W10, Notting Hill W11, Putney SW15, Shoreditch E2, South
+Kensington SW7, Southwark SE1, St. John’s Wood NW8, Stockwell SW9, Streatham SW16, Victoria SW1,
+Wandsworth SW18, Hampstead NW3 NW6, West Kensington W14, Wimbledon SW19
+
+</p>
+        											</div>
+        											<!-- <div class="modal-footer">
+         											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        											</div> -->
+      											</div>
+      
+    												</div>
+  														</div>
+         </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- END  TEAM -->
+
+<!--START TESTIMONIALS -->
+<section id="quotes">
+	<div class="highlightBox">
+    	<div class="boxBg">
+    		<div class="page-block-big">
+            		<i class="fa fa-quote-left wow bounceIn" data-wow-offset="200" data-wow-delay="100ms"></i><i class="fa fa-quote-right wow bounceIn" data-wow-offset="200" data-wow-delay="100ms"></i>
+            	  <h1 class="wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms">What our <strong>clients say...</strong></h1> 
+                  <div id="testimonial" class="carousel slide container" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators wow fadeInUp" data-wow-offset="200" data-wow-delay="700ms">
+                      <li data-target="#testimonial" data-slide-to="0" class="active"></li>
+                      <li data-target="#testimonial" data-slide-to="1"></li>
+                      <li data-target="#testimonial" data-slide-to="2"></li>
+                    </ol>
+                  
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner text-center wow fadeInUp" data-wow-offset="200" data-wow-delay="500ms">
+                          <div class="item active">
+                              <p>I was amazed at the manicure that was given. Showed it to all my friends!! Thanks BeautyHome!
+</p>
+                              <h5>- North West London, Client</h5>
+                          </div><!-- end item -->
+                          
+                          <div class="item">
+                              <p>This is exactly what I’ve been looking for a while...and the prices are incredible too
+</p>
+                              <h5>- East London, Client</h5>
+                          </div><!-- end item -->
+                          
+                          <div class="item">
+                              <p>I was very impressed with the quality of the therapist from BeautyHome. It was my first time for a home
+treatment so was a bit sceptical. But the therapist arrived with all the equipment and was way better than
+going to a salon. From now on, its BeautyHome for me...
+</p>
+                              <h5>- Stanmore, Client</h5>
+                          </div><!-- end item -->
+                    </div><!-- end carousel-inner -->
+                 </div><!-- end testimonial -->
+			</div><!-- end page-block-bi -->
+        </div><!-- end boxBg -->
+    </div><!-- end highlightBox -->
+</section>
+<!-- END  TESTIMONIAL -->
+
+<!--START SUBSCRIBE -->
+<section id="subscribe" class="page-block-small wow fadeInDown" data-wow-offset="200" data-wow-delay="300ms">
+	<div class="container">
+		<div class="row">
+        
+        	<div class="col-md-6 col-sm-12 wow fadeInLeft" data-wow-offset="200" data-wow-delay="500ms">
+              <h4 class="subscribeHeading">Subscribe to our <span>newsletter</span> for special offers</h4>
+            </div>
+            <div class="col-md-6 col-sm-12 wow fadeInRight" data-wow-offset="200" data-wow-delay="800ms">
+              <form action="form/subscribe.php" id="subscribeForm" method="post">
+                <div class="form-row">
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                      <input type="email" id="emailSubscribe" name="emailSubscribe" class="form-control" placeholder="Enter Your Email Address Here..." />
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+              		  <input type="text" id="sub-security" name="sub-security" class="form-control hide" value="" />
+                      <input type="submit" id="sub-submit" name="sub-submit" value="+" class="btn btn-primary" />
+                    </div>
+                </div>
+              </form>
+            </div>
+            
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- END  SUBSCRIBE -->
+
+<!--START CONTACT -->
+<section id="contact" class="page-block">
+	<div class="container">
+		<div class="row">
+        	<h2>Contact <span>Us</span></h2>
+            
+            <div class="col-md-8 col-sm-8">
+            	<p>Fill up form below for appointment. All fields are required.</p>
+            	<form id="contact_form" method="post" action="form/contact.php">
+                    <div class="field-wrapper">
+                        <div class="form-row col-md-6 wow fadeInLeft" data-wow-offset="200" data-wow-delay="100ms">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
+                        </div>
+                        <div class="form-row col-md-6 wow fadeInRight" data-wow-offset="200" data-wow-delay="200ms">
+                          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone" />
+                        </div>
+                        <div class="form-row col-md-6 wow fadeInLeft" data-wow-offset="150" data-wow-delay="300ms">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />
+                        </div>
+                        <div class="form-row col-md-6 wow fadeInRight" data-wow-offset="150" data-wow-delay="400ms">
+                        	<input type="datetime" class="form-control" value="" id="datetimepicker" name="datetimepicker" placeholder="Preffered Date & Time" />
+                        </div>
+                        <div class="form-row col-md-12 clearfix wow fadeInUp" data-wow-offset="100" data-wow-delay="500ms">
+                          <textarea cols="60" rows="3" id="comment" name="comment" class="form-control" placeholder="Write your comment here..."></textarea>
+                        </div>
+                        <div class="col-md-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="700ms">
+                    		<input type="text" id="security" name="security" class="form-control hide" value="" />
+                        	<input type="submit" value="Submit" class="btn btn-primary" id="submit" name="submit" />
+                        </div>
+                   </div>
+                </form>
+            </div>
+            
+            <div class="col-md-3 col-md-offset-1 col-sm-4 contactInfo">
+                  <h5>GET IN TOUCH</h5>
+                  <p class="noBordertop wow fadeInRight" data-wow-offset="200" data-wow-delay="100ms">
+                  	<i class="fa fa-clock-o"></i> 7 days a week,<br>9am to 9pm
+                  </p>
+                  <p class="wow fadeInRight" data-wow-offset="200" data-wow-delay="300ms">
+                  	<i class="fa fa-map-marker"></i> London, UK.
+                  </p>
+                  <p class="wow fadeInRight" data-wow-offset="200" data-wow-delay="500ms">
+                  	<i class="fa fa-phone"></i> Phone: +442037944990
+                  </p>
+                  <p class="noBorderbtm wow fadeInRight" data-wow-offset="200" data-wow-delay="700ms">
+                  	<i class="fa fa-envelope-o"></i> <a href="mailto:info@beautyhome.co.uk" title="Email Us" target="_blank">info@beautyhome.co.uk</a>
+                  </p>
+            </div>
+            
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- END  CONTACT -->
+
+<!--START COPYRIGHT-->
+<footer id="copyright" class="page-block-small wow fgadeInDown" data-wow-offset="70" data-wow-delay="700ms">
+  <div class="container text-center"> 
+    <div class="row">
+    
+      <p>BeautyHome &copy; 2014. All Rights Reserved.</p>
+      
+    </div><!-- end row -->
+  </div><!-- end container -->
+</footer>
+<!--END COPYRIGHT--> 
+
+<a href="#slides" class="top"><i class="fa fa-arrow-up fa-lg"></i></a>
+
+<!--START SCRIPTS -->
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/wow.min.js"></script> 
+<script src="js/placeholders.js"></script>
+<script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+<script src="js/jquery.datetimepicker.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/master.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+          $("#ther_read").hide();
+          $("#more-massage").hide();
+           $("#less-massage-link").hide();
+          
+          $("#therapist-link").click(function(){
+    $("#ther_read").toggle(600);
+});          
+
+$("#more-massage-link").click(function(){
+    $("#more-massage").show(800);
+    $("#less-massage-link").show(800);
+    $("#more-massage-link").hide();
+});  
+
+$("#less-massage-link").click(function(){
+    $("#more-massage").hide(800);
+    $("#less-massage-link").hide();
+    $("#more-massage-link").show(800);
+});  
+      });
+
+      
+ $(function(){
+    $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+    }); 
+     
+
+    </script>
+
+</body>
+</html>

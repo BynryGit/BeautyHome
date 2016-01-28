@@ -1,0 +1,5 @@
+User-Agent: *
+Allow : /
+
+Sitemap: http://www.beautyhome.co.uk/sitemap.xml
+
